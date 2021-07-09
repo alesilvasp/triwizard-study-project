@@ -10,7 +10,7 @@ function App() {
   const [startBattle, setStartBattle] = useState(false);
 
   useEffect(() => {
-    fetch("http://hp-api.herokuapp.com/api/characters/students")
+    fetch("https://hp-api.herokuapp.com/api/characters/students")
       .then((response) => response.json())
       .then((response) => setStudents(response));
   }, []);
