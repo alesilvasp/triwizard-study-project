@@ -1,0 +1,33 @@
+.musicControl {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    width: 200px;
+    justify-content: space-around;
+}
+
+button {
+    font-family: 'Henny Penny', cursive;
+    background-color: goldenrod;
+    padding: 5px;
+    font-size: 1rem;
+    width: 40%;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px black;
+    margin-top: 20px;
+}
+
+button:hover {
+    filter: opacity(0.8);
+}
+
+button:active {
+    position: relative;
+    left: 2px;
+    top: 3px;
+    box-shadow: 2px 2px 2px black;
+
+}

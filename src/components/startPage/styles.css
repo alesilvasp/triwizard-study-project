@@ -1,0 +1,47 @@
+@font-face {
+  font-family: "harry potter";
+  src: url("/src/fonts/MagicSchoolTwo.ttf");
+  /* font-family: 'harry2';
+  src: url('/src/fonts/MagicSchoolOne.ttf'); */
+}
+
+.welcomeContainer {
+  font-family: "harry potter";
+  text-align: center;
+}
+
+h1 {
+  font-family: "harry potter";
+  font-size: 7rem;
+  color: #b48100;
+  text-shadow: 5px 5px 5px black;
+}
+
+.welcomeContainer > p {
+  font-family: "Henny Penny", cursive;
+  text-shadow: 5px 5px 5px black;
+}
+
+.startBattleButton {
+    font-family: 'Henny Penny', cursive;
+    background-color: goldenrod;
+    padding: 15px;
+    font-size: 2rem;
+    width: 30%;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px black;
+}
+
+.startBattleButton:hover {
+    filter: opacity(0.8);
+}
+
+.startBattleButton:active {
+    position: relative;
+    left: 2px;
+    top: 3px;
+    box-shadow: 2px 2px 2px black;
+
+}

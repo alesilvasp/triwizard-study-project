@@ -1,0 +1,72 @@
+figure {
+  text-align: center;
+}
+
+.wizardImage {
+  min-width: 200px;
+  max-width: 200px;
+  min-height: 290px;
+  max-height: 290px;
+  border-radius: 25px;
+}
+
+.wizardsCards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.wizardImageGreen {
+  border: 5px solid green;
+}
+
+.wizardImageRed {
+  border: 5px solid darkred;
+}
+
+.wizardImageYellow {
+  border: 5px solid yellow;
+}
+
+.wizardImageBlue {
+  border: 5px solid blue;
+}
+
+.wizardAvatar {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.wizardName:nth-child(1) {
+  font-family: "harry potter";
+  margin-bottom: 15px;
+  font-size: 3rem;
+  text-shadow: 5px 5px 5px black;
+
+}
+
+.info {
+  font-family: "Henny Penny", cursive;
+  align-self: self-start;
+  text-shadow: 5px 5px 5px black;
+
+}
+
+.wizardNameGryffindor {
+  color: darkred;
+}
+
+.wizardNameSlytherin {
+  color: green;
+}
+
+.wizardNameHufflepuff{
+  color: yellow;
+}
+
+.wizardNameRavenclaw {
+  color: blue;
+}
